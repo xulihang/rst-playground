@@ -18,7 +18,7 @@ Roles
     使用：
     :raw-html:`a<br />b`
 
-效果： :raw-html:`a<br />b`
-
 .. role:: raw-html(raw)
-    :format: html
+   :format: html
+
+效果： :raw-html:`a<br />b`
