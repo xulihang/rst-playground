@@ -3,21 +3,13 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to rst-playground's documentation!
+restructuredText说明文档
 ==========================================
 
 .. toctree::
    :maxdepth: 2
-   :caption: 第一章
+   :caption: 第五部分
 
-   1-intro/home
+   1-intro/directives
+   1-intro/experience
 
-
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`

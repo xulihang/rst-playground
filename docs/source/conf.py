@@ -39,6 +39,7 @@ release = ''
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+'rinoh.frontend.sphinx'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -58,7 +59,7 @@ master_doc = 'index'
 #
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
-language = None
+language = "zh_CN"
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
@@ -109,16 +110,27 @@ htmlhelp_basename = 'rst-playgrounddoc'
 latex_elements = {
     # The paper size ('letterpaper' or 'a4paper').
     #
-    # 'papersize': 'letterpaper',
+     'papersize': 'letterpaper',
 
     # The font size ('10pt', '11pt' or '12pt').
     #
-    # 'pointsize': '10pt',
+     'pointsize': '10pt',
 
     # Additional stuff for the LaTeX preamble.
     #
     # 'preamble': '',
+    'fontpkg':'',
+    'fncychap':'',
 
+    'preamble': '''
+\\usepackage{xeCJK}
+\\usepackage{indentfirst}
+\\setlength{\\parindent}{2em}
+\\setCJKmainfont{SimSun}
+\\setCJKmonofont[Scale=0.9]{SimSun}
+\\setCJKfamilyfont{song}{SimSun}
+\\setCJKfamilyfont{sf}{SimSun}
+'''
     # Latex figure (float) alignment
     #
     # 'figure_align': 'htbp',
