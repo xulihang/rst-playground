@@ -136,7 +136,6 @@ latex_elements = {
 \begin{CJK}{UTF8}{gbsn}
 \AtEndDocument{\end{CJK}}
 ''',
-}
     # Latex figure (float) alignment
     #
     # 'figure_align': 'htbp',
