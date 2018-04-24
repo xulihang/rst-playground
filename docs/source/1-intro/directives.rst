@@ -1,7 +1,7 @@
-Directives
+指令（Directives）
 ==========================================
 
-Directives是Roles之外的另一个rst使用的隐式标记，用以拓展它的功能。Directive block包含三个部分：参数（arguments），选项（options，一个rst语法表示的列表)，内容（content）。
+Directives是Roles之外的另一个rst使用的显式标记，用以拓展它的功能。Directive block包含三个部分：参数（arguments），选项（options，一个rst语法表示的列表)，内容（content）。
 
 它的结构通常是这样的：::
 
